@@ -19,7 +19,7 @@ ________
 print()
 print()
 url = input("Please Enter Target Url\t:")
-payloads = open('payloads.txt','r')
+payload = ["<script>alert(123);</script>"]
 def Send_req(url,payload):
     #while url[-1] != '=':
      #   url = url[:-1]
@@ -32,9 +32,3 @@ def Send_req(url,payload):
            print(Fore.GREEN +'XSS Found   -->','   ' , f"{url}" + Fore.RESET)
 
 
-    except Exception as e:
-        pass
-file = file.readlines()
-for payload in payloads:
-        payload = payload.strip('\n')
-        threading.Thread(target=Send_req,args=(url,payload,)).start()
