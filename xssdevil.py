@@ -23,4 +23,4 @@ print(url+payload)
 if payload in req:
     print(Fore.GREEN +'XSS Found   -->','   ' , f"{url+payload}" + Fore.RESET)
 else:
-    print(Fore.RED + 'XSS Not Found' + Force.RESET)
+    print(Fore.RED + 'XSS Not Found' + Fore.RESET)
