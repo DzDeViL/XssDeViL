@@ -24,7 +24,7 @@ _______                _______                                             .---.
                                           [ twitter.com/devilcombo ]
                                           [ facebook: Belhadj Hussein ]
         """ + Fore.RESET)
-   Log.info("Starting PwnXSS...")
+Log.info("Starting PwnXSS...")
 url = input
 payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
