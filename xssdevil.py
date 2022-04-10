@@ -16,11 +16,11 @@ ________
                                           [ Snapchat : aaa.saq ]
         """ + Fore.RESET)
 
-url = input("Please Enter Target Ur")
+url = input("Please Enter Target Url = ")
 payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
 if payload in req:
-    print(Fore.GREEN +'XSS Found   -->','   ' , f"{url}" + Fore.RESET)
+    print(Fore.GREEN +'XSS Found   -->','   ' , f"{url+payload}" + Fore.RESET)
 else:
-    print("no xss")
+    print(Fore.RED + 'XSS Not Found' + Force.RESET)
