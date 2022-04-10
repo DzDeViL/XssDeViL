@@ -25,11 +25,12 @@ _______                _______                                             .---.
                                           [ facebook: Belhadj Hussein ]
         """ + Fore.RESET)
 Log.info("Starting PwnXSS...")
-url = input("Please Enter Target Url = ")
+Log.info("Please Enter Target Url")
+url = input
 payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
 if payload in req:
-    print(Fore.GREEN +'XSS Found   -->','   ' , f"{url+payload}" + Fore.RESET)
+Log.high("Detected XSS (POST) at "+url)
 else:
     print(Fore.RED + 'XSS Not Found' + Fore.RESET)
