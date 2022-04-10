@@ -18,7 +18,7 @@ ________
 
 print()
 print()
-url = input(input("Please Enter Target Url\t:"))
+url = input("Please Enter Target Url\t:"))
 payloads = open('payloads.txt','r')
 def Send_req(url,payload):
     #while url[-1] != '=':
@@ -36,7 +36,5 @@ def Send_req(url,payload):
         pass
 file = file.readlines()
 for payload in payloads:
-    for url in file:
-        url = url.strip('\n')
         payload = payload.strip('\n')
         threading.Thread(target=Send_req,args=(url,payload,)).start()
