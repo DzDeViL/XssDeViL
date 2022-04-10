@@ -1,15 +1,22 @@
-from datetime import datetime
+from colorama import Fore,Back,Style
+import datetime
+
 class Log:
 
-	@classmethod
-	def info(self,text):
- 		print("["+Y+datetime.now().strftime("%H:%M:%S")+N+"] ["+G+"INFO"+N+"] "+text)
- 
-	@classmethod
-	def warning(self,text):
-		print("["+Y+datetime.now().strftime("%H:%M:%S")+N+"] ["+Y+"WARNING"+N+"] "+text)
+	def print_text(self, log_type, text):
+		time = str(datetime.datetime.now())
+		if log_type == "DEBUG":
+			print(Fore.BLUE   +  "[" + time +" DEBUG]: " +  Fore.WHITE + "%s" % (text))
 
-	@classmethod
-	def high(self,text):
- 		print("["+Y+datetime.now().strftime("%H:%M:%S")+N+"] ["+R+"CRITICAL"+N+"] "+text)
- 		
+		if log_type == "INFO":
+			print(Style.BRIGHT + Fore.GREEN  +  "[" + time + " INFO]: " + Fore.WHITE + "%s" % (text))
+
+		if log_type == "WARNING":
+			print(Fore.YELLOW +  "[" + time  + " WARNING]: " + Fore.WHITE + "%s" % (text))
+
+		if log_type == "ERROR":
+			print(Fore.RED    +  "[" + time + " ERROR]: " + Fore.WHITE + "%s" % (text))
+
+	def print_found(self, url):
+		time = str(datetime.datetime.now())
+		print( Style.BRIGHT + Fore.GREEN + "[" + time +  " FOUND]: " + Style.BRIGHT + Fore.WHITE + "Potential XSS Found: \n%s"%url)
