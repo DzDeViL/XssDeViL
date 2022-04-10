@@ -25,7 +25,6 @@ _______                _______                                             .---.
                                           [ facebook: Belhadj Hussein ]
         """ + Fore.RESET)
    Log.info("Starting PwnXSS...")
-   Log.info("Please Enter Target Url")
 url = input
 payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
