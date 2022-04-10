@@ -24,11 +24,11 @@ _______                _______                                             .---.
                                           [ twitter.com/devilcombo ]
                                           [ facebook: Belhadj Hussein ]
         """ + Fore.RESET)
-Log.info("Starting PwnXSS...")
-Log.info("Please Enter Target Url")
+   Log.info("Starting PwnXSS...")
+   Log.info("Please Enter Target Url")
 url = input
 payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
-if payload in req:
-Log.high("Detected XSS")
+if payload in req.text:
+   Log.high("Detected XSS")
