@@ -1,1 +1,2 @@
 
+    print(Fore.GREEN +'XSS Found   -->','   ' , f"{url+payload}" + Fore.RESET)
