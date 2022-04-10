@@ -16,8 +16,6 @@ ________
                                           [ Snapchat : aaa.saq ]
         """ + Fore.RESET
 
-print()
-print()
 url = input("Please Enter Target Url\t:")
 payload = ["<script>alert(123);</script>"]
 req=requests.get(url+payload,"html.parser").text;
