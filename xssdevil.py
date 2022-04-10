@@ -14,21 +14,15 @@ ________
         \/            \/|__|        \/     \/     \/ 
                                           [ twitter.com/r00t_nasser ]
                                           [ Snapchat : aaa.saq ]
-        """ + Fore.RESET)
+        """ + Fore.RESET
 
 print()
 print()
 url = input("Please Enter Target Url\t:")
 payload = ["<script>alert(123);</script>"]
-def Send_req(url,payload):
-    #while url[-1] != '=':
-     #   url = url[:-1]
-    url = url.replace("=",f"={payload}")
-
-    try:
-
-        res = requests.get(url)
-        if payload in res.text:
-           print(Fore.GREEN +'XSS Found   -->','   ' , f"{url}" + Fore.RESET)
-
-
+req=requests.get(url+payload,"html.parser").text;
+print(url+payload)
+if payload in req:
+print(Fore.GREEN +'XSS Found   -->','   ' , f"{url}" + Fore.RESET)
+else:
+print("no xss")
