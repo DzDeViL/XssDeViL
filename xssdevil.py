@@ -18,7 +18,7 @@ ________
 
 print()
 print()
-url = input("Please Enter Target Url\t:"))
+url = input("Please Enter Target Url\t:")
 payloads = open('payloads.txt','r')
 def Send_req(url,payload):
     #while url[-1] != '=':
