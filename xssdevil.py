@@ -14,9 +14,9 @@ ________
         \/            \/|__|        \/     \/     \/ 
                                           [ twitter.com/r00t_nasser ]
                                           [ Snapchat : aaa.saq ]
-        """ + Fore.RESET
+        """ + Fore.RESET)
 
-url = input("Please Enter Target Url\t:")
+url = input("Please Enter Target Ur")
 payload = ["<script>alert(123);</script>"]
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
