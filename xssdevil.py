@@ -31,6 +31,6 @@ payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
 if payload in req:
-Log.high("Detected XSS (POST) at "+url)
+Log.high("Detected XSS")
 else:
     print(Fore.RED + 'XSS Not Found' + Fore.RESET)
