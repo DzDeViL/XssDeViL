@@ -21,6 +21,6 @@ payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
 if payload in req:
-print("XSS Found")
+    print("XSS Found")
 else:
-print("no xss")
+    print("no xss")
