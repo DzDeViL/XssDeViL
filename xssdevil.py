@@ -25,7 +25,7 @@ _______                _______                                             .---.
                                           [ facebook: Belhadj Hussein ]
         """ + Fore.RESET)
 Log.info("Starting PwnXSS...")
-url = input("Add Site")
+Log.info.url = input("Please Enter Target Url")
 payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
 print(url+payload)
