@@ -1,5 +1,6 @@
 import requests
 import threading
+from lib.helper.Log import *
 from colorama import Fore, Back, Style
 
 
@@ -22,7 +23,7 @@ _______                _______                                             .---.
                                           [ twitter.com/devilcombo ]
                                           [ facebook: Belhadj Hussein ]
         """ + Fore.RESET)
-
+Log.info("Starting PwnXSS...")
 url = input("Please Enter Target Url = ")
 payload = "<script>alert(123);</script>"
 req=requests.get(url+payload,"html.parser").text;
