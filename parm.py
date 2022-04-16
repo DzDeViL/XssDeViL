@@ -38,9 +38,9 @@ def main():
     args = parser.parse_args()
 
     if args.subs == True or " True":
-        url = f"https://web.archive.org/cdx/search/cdx?url=*.{args.domain}/*&matchType=domain&fl=original&collapse=urlkey&page=/"
+        url = f"https://web.archive.org/cdx/search/cdx?url=*.{args.domain}/*&output=txt&matchType=domain&fl=original&collapse=urlkey&page=/"
     else:
-        url = f"https://web.archive.org/cdx/search/cdx?url={args.domain}/*&matchType=domain&fl=original&collapse=urlkey&page=/"
+        url = f"https://web.archive.org/cdx/search/cdx?url={args.domain}/*&output=txt&matchType=domain&fl=original&collapse=urlkey&page=/"
     
     retry = True
     retries = 0
