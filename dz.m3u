@@ -8,11 +8,11 @@ http://157.90.244.222/hls/Bein3_Premuim.m3u8
 #EXTINF:-1,AR: beIN Sport 1 FHD
 http://abc.myplay.live:2086/live/saeed/saeed1234/100158.m3u8
 #EXTINF:-1,AR: beIN Sport 2 FHD
-http://157.90.244.222/hls/Bein2.m3u8
+http://146.0.32.163:25461/live/Qwerqwr/Qwer/4.ts
 #EXTINF:-1,AR: beIN Sport 3 FHD
 http://157.90.244.222/hls/Bein3.m3u8
 #EXTINF:-1,AR: beIN Sport 4 FHD
-http://157.90.244.222/hls/Bein4.m3u8
+http://217.74.16.155:8082/local/ar-s/bein-1-stop/index.m3u8
 #EXTINF:-1,AR: beIN Sport 5 FHD
 http://157.90.244.222/hls/Bein5.m3u8
 #EXTINF:-1,AR: beIN Sport 6 FHD
