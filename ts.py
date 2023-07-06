@@ -68,7 +68,7 @@ def azz():
 azz()
 
 
-es = input(f' {F}({C}1{F}) {X}SESSION {F}  '+Z)
+es = input(f' {F}({C}1{F}) {X}SESSIOoN {F}  '+Z)
 print(X+' ╸╸╸╸╸╸╸╸╸╸╸╸╸╸  ')
 token = input(f' {F}({C}2{F}) {X}  TOKEN{F}  '+Z)
 print(X+' ╸╸╸╸╸╸╸╸╸╸╸╸╸╸  ')
