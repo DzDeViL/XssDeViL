@@ -78,7 +78,7 @@ head = {
 'accept': '*/*',
 'accept-encoding': 'gzip, deflate, br',
 'accept-language': 'ar,en-US;q=0.9,en;q=0.8',
-'cookie': 'mid=YvvDrAALAAFLJor2N0MGQgLWW0UW; ig_did=A837F007-F7BC-4802-8EF0-A68D997C297D; ig_nrcb=1; datr=nGUPYz2GPkoNMu7UWgKcsp8x; csrftoken=ZUyjsgp9hIYl4CfqYu7ilo6ZEgv2gl2Z; ds_user_id=5376288835; shbid="14120\0545376288835\0541695151496:01f736544db5dcfedc306d753acc4c86d0c42f55fdf7c5941c9c39c6edf1a239cafb04a2"; shbts="1663615496\0545376288835\0541695151496:01f7487ad9bfa5a41605905bf69300e6d01dcca404a38a4f43c2b140c3c002789b13493e"; sessionid='+es+'; rur="NAO\0545376288835\0541695151518:01f70ce168631f1e97241f7871dda739a5cde84682f30c3436b4f2fbe18ad3eaf1c6dc9c"',
+'cookie: 'csrftoken=Qub889tjzDQsiQfxhqIcNPJKw1konJxP; mid=ZKX4KQALAAFYHn72no4FXiJrpqoY; ig_did=FDC872FA-879D-4C69-BD71-4EAE532DAA9E; ig_nrcb=1; datr=M_umZOghe5qBVWsRDbBV2Agx',
 'origin': 'https://www.instagram.com',
 'referer': 'https://www.instagram.com/',
 'sec-ch-ua': '"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"',
@@ -88,11 +88,11 @@ head = {
 'sec-fetch-mode': 'cors',
 'sec-fetch-site': 'same-site',
 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
-'x-asbd-id': '198387',
-'x-csrftoken': 'ZUyjsgp9hIYl4CfqYu7ilo6ZEgv2gl2Z',
+'x-asbd-id': '129477',
+'x-csrftoken': 'Qub889tjzDQsiQfxhqIcNPJKw1konJxP',
 'x-ig-app-id': '936619743392459',
 'x-ig-www-claim': 'hmac.AR2M8P8_d7bvLTR7zVAphA15aAoyYXFGByqPC36ugQK8Wv2m',
-'x-instagram-ajax': '1006224323',
+'x-instagram-ajax': '1007796774',
 }
 
 
