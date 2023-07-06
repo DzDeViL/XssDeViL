@@ -22,7 +22,7 @@ except ModuleNotFoundError:
 	os.system('pip install json')
 	os.system("pip install uid")
 	os.system("pip install uuid")
-	os.system("clear")
+	os.system("cls")
 E = '\033[1;31m'
 G = '\033[1;35m'
 Z = '\033[1;31m' #احمر
@@ -68,12 +68,12 @@ def azz():
 azz()
 
 
-es = input(f' {F}({C}1{F}) {X} ادخــل الســيزون {F}  '+Z)
+es = input(f' {F}({C}1{F}) {X}SESSION {F}  '+Z)
 print(X+' ╸╸╸╸╸╸╸╸╸╸╸╸╸╸  ')
-token = input(f' {F}({C}2{F}) {X} ادخــل الـتـوكن{F}  '+Z)
+token = input(f' {F}({C}2{F}) {X}  TOKEN{F}  '+Z)
 print(X+' ╸╸╸╸╸╸╸╸╸╸╸╸╸╸  ')
-ID = input(f' {F}({C}3{F}) {X} ادخــل الايــدي{F}  '+Z)
-os.system('clear')
+ID = input(f' {F}({C}3{F}) {X}  ID{F}  '+Z)
+os.system('cls')
 head = {
 'accept': '*/*',
 'accept-encoding': 'gzip, deflate, br',
