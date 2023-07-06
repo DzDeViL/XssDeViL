@@ -78,7 +78,7 @@ head = {
 'accept': '*/*',
 'accept-encoding': 'gzip, deflate, br',
 'accept-language': 'ar,en-US;q=0.9,en;q=0.8',
-'cookie: 'csrftoken=Qub889tjzDQsiQfxhqIcNPJKw1konJxP; mid=ZKX4KQALAAFYHn72no4FXiJrpqoY; ig_did=FDC872FA-879D-4C69-BD71-4EAE532DAA9E; ig_nrcb=1; datr=M_umZOghe5qBVWsRDbBV2Agx',
+'cookie': 'csrftoken=Qub889tjzDQsiQfxhqIcNPJKw1konJxP; mid=ZKX4KQALAAFYHn72no4FXiJrpqoY; ig_did=FDC872FA-879D-4C69-BD71-4EAE532DAA9E; ig_nrcb=1; datr=M_umZOghe5qBVWsRDbBV2Agx',
 'origin': 'https://www.instagram.com',
 'referer': 'https://www.instagram.com/',
 'sec-ch-ua': '"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"',
